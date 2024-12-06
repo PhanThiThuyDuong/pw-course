@@ -22,8 +22,8 @@ console.log("Bài 2: " + person.name + " đang ở đường " + person.address.
 let student = {
     name: "Dương",
     grades: {
-        math :"",
-        english : ""
+        math: "",
+        english: ""
     }
 };
 student.grades["math"] = 9.0;
@@ -31,18 +31,18 @@ console.log("Bài 3: " + student.grades.math);
 
 //Bài 4 
 let product = {
-    apple : 20,
-    banana : 15,
-    orange : 30
+    apple: 20,
+    banana: 15,
+    orange: 30
 };
 console.log("Bài 4:")
 for (let nameProduct in product) {
     console.log(`${nameProduct} : ${product[nameProduct]}`)
 };
- 
+
 //Bài 5 
 let settings = {
-    volume : "max",
+    volume: "max",
     brightness: "min"
 };
 settings.volume = "min";
@@ -59,8 +59,8 @@ let employee = {
     age: 26
 }
 delete employee.age;
-console.log("Bài 7: " , employee);
+console.log("Bài 7: ", employee);
 
 //Bài 8
-const school = {classA:["An","Bình","Châu"], classB:["Đào","Hương","Giang"]};
-console.log("Bài 8: " ,school);
+const school = { classA: ["An", "Bình", "Châu"], classB: ["Đào", "Hương", "Giang"] };
+console.log("Bài 8: ", school);
