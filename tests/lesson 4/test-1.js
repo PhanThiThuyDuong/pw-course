@@ -1,7 +1,7 @@
 //Bài 1: Khởi động Tàu Vũ trụ K11
 let departurePlanet = "Trái Đất";
 let mission = "Khám phá Vũ trụ K11";
-let crew = ["Dương", "Đức", "Tiên", "Dũng", "Thư", "Thảo", "Thanh", "Trang", "Khoa"];
+let crew = ["Dương", " Đức", " Tiên", " Dũng", " Thư", " Thảo", " Thanh", " Trang", " Khoa"];
 function launchShip(crew, mission) {
     console.log("Chuẩn bị khởi động! Phi hành đoàn gồm: " + crew + " sẽ đồng hành cùng bạn trong chuyến phiêu lưu " + mission + "!");
 }
